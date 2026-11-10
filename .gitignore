@@ -1,0 +1,41 @@
+# Logs and runtime files
+*.log
+logs/
+*.pid
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*~
+
+# Build and dependency artifacts
+build/
+dist/
+out/
+node_modules/
+.venv/
+__pycache__/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local verification output
+.local/
+*.tar.gz
+*.zip
+
+# Publish only the reviewed, anonymized capture
+*.pcap
+*.pcapng
+!reports/traffic.pcapng
