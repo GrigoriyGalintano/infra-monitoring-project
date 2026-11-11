@@ -35,7 +35,7 @@ Thumbs.db
 *.tar.gz
 *.zip
 
-# Publish only the reviewed, anonymized capture
+# Traffic captures
 *.pcap
 *.pcapng
 !reports/traffic.pcapng
